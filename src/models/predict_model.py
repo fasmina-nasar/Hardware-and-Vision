@@ -1,3 +1,5 @@
+import matplotlib.pyplot as plt
+
 def predict_image(model, test_data, class_names):
   # Get the first image and label from the test set
   for images_batch,labels_batch in test_data.take(1):
